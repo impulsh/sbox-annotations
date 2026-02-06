@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Sandbox.Engine">
+	<member name="T:Sandbox.Component">
+		<attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
+			<argument>5</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.WithInheritors -->
+		</attribute>
+	</member>
+	<member name="P:Sandbox.Component.Scene">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="P:Sandbox.Component.Transform">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="P:Sandbox.Component.GameObject">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="P:Sandbox.Component.Components">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.Component.GetComponent``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.Component.GetComponentInChildren``1(System.Boolean,System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.Component.GetComponentInParent``1(System.Boolean,System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="T:Sandbox.GameObject">
+		<attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
+			<argument>5</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.WithInheritors -->
+		</attribute>
+	</member>
+	<member name="M:Sandbox.GameObject.GetComponent``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.GameObject.GetComponentInChildren``1(System.Boolean,System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.GameObject.GetComponentInParent``1(System.Boolean,System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.Get``1(Sandbox.FindMode)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.Get``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.Get(System.Guid)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.FirstOrDefault(System.Func{Sandbox.Component,System.Boolean})">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInAncestorsOrSelf``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInAncestors``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInDescendantsOrSelf``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInChildrenOrSelf``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInChildren``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInParentOrSelf``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.GetInParent``1(System.Boolean)">
+		<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+	</member>
+	<member name="M:Sandbox.ComponentList.TryGet``1(``0@,Sandbox.FindMode)">
+		<parameter name="component">
+			<attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+			<attribute ctor="M:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.#ctor(System.Boolean)">
+				<argument>true</argument>
+			</attribute>
+		</parameter>
+	</member>
+	<member name="T:Sandbox.GameObjectSystem">
+		<attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
+			<argument>5</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.WithInheritors -->
+		</attribute>
+	</member>
+</assembly>
