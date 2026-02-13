@@ -3,4 +3,7 @@
 	<member name="T:Sandbox.PropertyAttribute">
 		<attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor"/>
 	</member>
+	<member name="T:Sandbox.RequireComponentAttribute">
+		<attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor"/>
+	</member>
 </assembly>
